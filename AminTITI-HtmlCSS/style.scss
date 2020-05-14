@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+
+
+    .profilediv {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+
+
+
+    }
+
+    .profileimg {
+
+        border-radius: 100px;
+        width: 50px;
+        height: 50;
+        padding: 5px;
+
+    }
+
+    .logoimg {
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+    }
+
+
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+
+    .fas,
+    .fars {
+        padding: 5px;
+    }
+
+
+    .span {
+
+        border-bottom: 1px solid black;
+        width: 100%;
+        text-align: center;
+        padding: 2px;
+
+    }
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230, 228, 228);
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    margin: 30px;
+}
+
+.firstdiv {
+    width: 90%;
+    min-height: 500px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.seconddiv {
+    width: 90%;
+    min-height: 300px;
+    background-color: rgb(74, 74, 236);
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.lastdiv {
+    width: 90%;
+    min-height: 500px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background: rgb(230, 228, 228);
+    min-height: 200px;
+
+}

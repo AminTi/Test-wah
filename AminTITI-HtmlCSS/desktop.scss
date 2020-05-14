@@ -1,0 +1,75 @@
+@media screen and (min-width: 700px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 0.3fr 0.3fr 0.3fr;
+        grid-template-rows: 2fr 2fr 2fr;
+
+        grid-template-areas: "h2 . ."
+            "column1 column1 column2 "
+            " column3 column3 column3 ";
+        gap: 10px;
+    }
+
+    h2 {
+        grid-area: h2;
+        min-height: 100px;
+
+    }
+
+    .firstdiv {
+        grid-area: column1;
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .seconddiv {
+        grid-area: column2;
+        width: 100%;
+
+        min-height: 300px;
+
+
+
+
+
+    }
+
+    .lastdiv {
+        grid-area: column3;
+        width: 100%;
+
+        min-height: 300px;
+
+    }
+
+
+
+
+    .logoimg {
+        margin-left: auto;
+        // width: 100px;
+        // height: 00px;
+    }
+
+    nav {
+        border: unset;
+        width: unset;
+        display: inline;
+        text-align: center;
+
+        .span {
+            border: unset;
+            padding: unset;
+
+        }
+
+        .fas,
+        .fars {
+            padding: unset;
+            margin: 5px;
+
+        }
+
+    }
+}

@@ -1,0 +1,60 @@
+@media screen and (min-width: 700px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.3fr 0.3fr 0.3fr;
+        grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    -ms-grid-rows: 2fr 2fr 2fr;
+        grid-template-rows: 2fr 2fr 2fr;
+        grid-template-areas: "h2 . ." "column1 column1 column2 " " column3 column3 column3 ";
+    gap: 10px;
+  }
+  h2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: h2;
+    min-height: 100px;
+  }
+  .firstdiv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: column1;
+    width: 100%;
+    min-height: 300px;
+  }
+  .seconddiv {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    grid-area: column2;
+    width: 100%;
+    min-height: 300px;
+  }
+  .lastdiv {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: column3;
+    width: 100%;
+    min-height: 300px;
+  }
+  .logoimg {
+    margin-left: auto;
+  }
+  nav {
+    border: unset;
+    width: unset;
+    display: inline;
+    text-align: center;
+  }
+  nav .span {
+    border: unset;
+    padding: unset;
+  }
+  nav .fas,
+  nav .fars {
+    padding: unset;
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=desktop.css.map */
